@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className='text-green-300'>
+          This is my first time with react project
         </p>
         <a
           className="App-link"
