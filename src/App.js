@@ -1,25 +1,50 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Content from './components/content';
+import Side from './components/Side';
+
+class Header extends React.Component{
+  render(){
+    return <div>
+      <h2>
+        This is Component
+      </h2>
+    </div>
+  }
+}
+
+// class App extends React.Component{
+//   render(){
+//     return(
+//       <div>
+//         <h1>Ini adalah mencoba react</h1>
+//         <Navbar></Navbar>
+//       <Header></Header>
+//       </div>
+//     );
+//   }
+// }
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className='text-green-300'>
-          This is my first time with react project
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Navbar>
+        
+      </Navbar>
+      <Side>
+        
+      </Side>
+      <Content>
+
+      </Content>
+      
     </div>
+
+   
   );
+  // return React.createElement('h1', {class:'header'},'hello world');
 }
 
 export default App;

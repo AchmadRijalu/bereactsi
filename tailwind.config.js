@@ -1,3 +1,4 @@
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   presets: [],
@@ -38,6 +39,9 @@ module.exports = {
       fuchsia: colors.fuchsia,
       pink: colors.pink,
       rose: colors.rose,
+      navblack : '#040303',
+      contentblack : '#191A19',
+
     }),
     columns: {
       auto: 'auto',
@@ -370,6 +374,8 @@ module.exports = {
         '"Courier New"',
         'monospace',
       ],
+      reem: ['Reem Kufi'],
+      robot:['Roboto'],
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -536,6 +542,7 @@ module.exports = {
       min: 'min-content',
       max: 'max-content',
       fit: 'fit-content',
+      'navheight' : '74px',
     }),
     inset: ({ theme }) => ({
       auto: 'auto',
