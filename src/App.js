@@ -4,7 +4,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Content from './components/content';
 import Side from './components/Side';
-
+import Aos from 'aos'
+import "aos/dist/aos.css"
 class Header extends React.Component{
   render(){
     return <div>
@@ -28,8 +29,10 @@ class Header extends React.Component{
 // }
 
 function App() {
+  Aos.init();
   return (
     <div className="">
+      
       <Navbar>
         
       </Navbar>

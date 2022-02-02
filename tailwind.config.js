@@ -10,6 +10,7 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
       '2xl': '1536px',
+      mini :'320px',
     },
     colors: ({ colors }) => ({
       inherit: colors.inherit,
@@ -543,6 +544,7 @@ module.exports = {
       max: 'max-content',
       fit: 'fit-content',
       'navheight' : '74px',
+      'aboutheight' : '20.9999999%',
     }),
     inset: ({ theme }) => ({
       auto: 'auto',
