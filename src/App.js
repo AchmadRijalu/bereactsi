@@ -31,7 +31,7 @@ class Header extends React.Component{
 function App() {
   Aos.init();
   return (
-    <div className="">
+    <div className="bg-contentblack">
       
       <Navbar>
         
