@@ -506,25 +506,121 @@ function Content(props) {
                 
                 
             </div>
-            <div className='w-full min-h-screen  flex flex-col' id='skills'>                  
+            <div className='w-full min-h-screen bg-yellow-400 flex flex-col' id='skills'>                  
                 <div className='w-full h-24   flex flex-col justify-center p-7 '>
                     <h1 className='text-white text-4xl font-robot font-bold'>
                             Skills
                     </h1>
                 </div>
-                <div className='w-full h-full flex flex-col'>
-                        <div className='w-full h-16  flex flex-col justify-center items-center'>
+                <div className='w-full min-h-full bg-green-400 flex flex-col'>
+                    <div className='w-full h-16  flex flex-col justify-center items-center'>
                             <h1 className='text-white font-reem font-semibold tracking-wide text-lg'>
                                I have an experience in develop some applications with programming languages, Markup, StyleSheets, and Frameworks.
                             </h1>
-                        </div>
-                        <div className='w-full h-full bg-yellow-200 grid-cols-4'>
-                            <div className='w-96 h-44 bg-white'>
-
+                    </div>
+                    <div className='w-full h-full flex grid grid-flow-cols grid-cols-4 gap-2 p-4 mt-4'>
+                            <div className='w-60 h-60  flex flex-col ml-3 bg-white p-2 rounded-xl'>
+                            <div className='w-full'>
+                            <img src='/images/htmlpng.png' className='W-full h-full'>
+                                </img>
                             </div>
-                        </div>
+                                <div className='w-full h-max p-1 mt-5 bg-contentblack text-white font-robot text-center font-bold'>
+                                 <h1>
+                                    HTML 5
+                                 </h1>
+                                </div>
+                            </div>
+                            <div className='w-60 h-60  flex flex-col ml-3 bg-white p-2 rounded-xl'>
+                            <div className='w-full'>
+                            <img src='/images/csspng.png' className='W-full h-full'>
+                                </img>
+                            </div>
+                                <div className='w-full h-max p-1 mt-5 bg-contentblack text-white font-robot text-center font-bold'>
+                                 <h1>
+                                    CSS 3
+                                 </h1>
+                                </div>
+                            </div>
+                            <div className='w-60 h-60  flex flex-col ml-3 bg-white p-2 rounded-xl'>
+                            <div className='w-full'>
+                            <img src='/images/jspng.png' className='w-full h-full'>
+                            </img>
+                            </div>
+                            
+                            <div className='w-full h-max p-1 mt-5 bg-contentblack text-white font-robot text-center font-bold'>
+                                 <h1>
+                                    Javascript
+                                 </h1>
+                                </div>
+                            </div>
+                            <div className='w-60 h-60  flex flex-col ml-3 bg-white p-2 rounded-xl'>
+                            <div className='w-full'>
+                            <img src='/images/javapng.png' className='w-full h-full'>
+                            </img>
+                            </div>
+                            
+                                <div className='w-full h-max p-1 mt-5 bg-contentblack text-white font-robot text-center font-bold '>
+                                 <h1>
+                                    Java
+                                 </h1>
+                                </div>
+                            </div>
+                            <div className='w-60 h-60  flex flex-col ml-3 bg-white p-2 rounded-xl'>
+                            <div className='w-full'>
+                            <img src='/images/phppng.png' className='w-full h-full'>
+                            </img>
+                            </div>
+                            
+                                <div className='w-full h-max p-1 mt-5 bg-contentblack text-white font-robot text-center font-bold'>
+                                 <h1>
+                                    PHP
+                                 </h1>
+                                </div>
+                            </div>
+
+                            <div className='w-60 h-60  flex flex-col ml-3 bg-white p-2 rounded-xl'>
+                            <div className='w-full'>
+                            <img src='/images/laravelpng.png' className='w-full h-full'>
+                            </img>
+                            </div>
+                            
+                                <div className='w-full h-max p-1 mt-5 bg-contentblack text-white font-robot text-center font-bold'>
+                                 <h1>
+                                    Laravel
+                                 </h1>
+                                </div>
+                            </div>
+                            <div className='w-60 h-60  flex flex-col ml-3 bg-white p-2 rounded-xl'>
+                            <div className='w-full'>
+                            <img src='/images/tailwindpng.png' className='w-full h-full'>
+                            </img>
+                            </div>
+                            
+                                <div className='w-full h-max p-1 mt-5 bg-contentblack text-white font-robot text-center font-bold'>
+                                 <h1>
+                                    Tailwind CSS
+                                 </h1>
+                                </div>
+                            </div>
+                            <div className='w-60 h-60  flex flex-col ml-3 bg-white p-2 rounded-xl'>
+                            <div className='w-full'>
+                            <img src='/images/mysqlpng.png' className='w-full h-full'>
+                            </img>
+                            </div>
+                            
+                                <div className='w-full h-max p-1 mt-5 bg-contentblack text-white font-robot text-center font-bold'>
+                                 <h1>
+                                    Mysql
+                                 </h1>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                    </div>
                         
                 </div>
+                
             </div>
         </div>
             
