@@ -5,12 +5,13 @@ module.exports = {
   darkMode: 'media', // or 'class'
   theme: {
     screens: {
+      mini: '320px',
       sm: '640px',
       md: '768px',
       lg: '1024px',
       xl: '1280px',
       '2xl': '1536px',
-      mini :'320px',
+      
     },
     colors: ({ colors }) => ({
       inherit: colors.inherit,
@@ -889,6 +890,7 @@ module.exports = {
     width: ({ theme }) => ({
       auto: 'auto',
       ...theme('spacing'),
+      'custom' : '400px',
       '1/2': '50%',
       '1/3': '33.333333%',
       '2/3': '66.666667%',
